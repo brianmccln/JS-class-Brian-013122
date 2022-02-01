@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>JS 02 Math Object</title>
+
+    <style>
+        div {
+            width: 50%;
+            margin: auto; 
+            background-color:#ccc; 
+            height: 80vh; 
+            text-align: center; 
+            padding:30px;
+        }
+
+        input {
+            font-size: 1.5em;
+            padding: 0.5em;
+        }
+
+        button, select {
+            font-size: 1.25em;
+            padding: 0.25em;
+            display: block;
+            margin: 1em auto;
+        }
+
+        /* targets inputs of type="number" only */
+        input[type="number"] {
+            width: 75px; /* wide enough for 4 big digits */
+            font-size: 2em;
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+    </style> 
+
+</head>
+<body>
+
+    <div>
+        <h1>JS 2 Math Object</h1>
+        <h2>Guess the Mystery Number from 1-100</h2>
+
+        <!-- div inside the div for our number interface -->
+        <div style="background-color:#aaa;height:300px;">
+
+            <h3>Enter your guess and click the button!</h3>
+            <input type="number" id="num" value="0">
+            <button id="btn">Click button to submit your guess</button>
+
+            <!-- <p id="mysteryNum">Random Mystery Number: </p> -->
+            <h3 id="feedback">FEEDBACK</h3>
+
+        </div>
+
+    </div>
+
+    <script src="js-02-Math-object.js"></script>
+    
+</body>
+</html>

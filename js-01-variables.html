@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>JS 01 Variables</title>
+
+    <style>
+        div {
+            width: 50%;
+            margin: auto; 
+            background-color:#ccc; 
+            height: 80vh; 
+            text-align: center; 
+            padding:30px;
+        }
+
+        input {
+            font-size: 1.5em;
+            padding: 0.5em;
+        }
+
+        button, select {
+            font-size: 1.25em;
+            padding: 0.25em;
+            display: block;
+            margin: 1em auto;
+        }
+
+        /* targets inputs of type="number" only */
+        input[type="number"] {
+            width: 100px; /* wide enough for 4 big digits */
+            font-size: 2em;
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+    </style> 
+
+</head>
+<body>
+
+    <div>
+        <h1>JS 01 Variables</h1>
+        <h2>Enter your name and choose a fruit!</h2>
+
+        <input type="text" id="firstName" placeholder="First Name">
+        <!-- add a button to call a function to get the name from the input field -->
+
+        <select id="fruit">
+
+            <!-- if choice is Apple, then fruit.value = "apple" -->
+            <option value="choose">Choose a Fruit</option>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="cherry">Cherry</option>
+            <option value="kiwi">Kiwi</option>
+            <option value="mango">Mango</option>
+            <option value="orange">Orange</option>
+            <option value="papaya">Papaya</option>
+            <option value="pear">Pear</option>
+            <option value="plum">Plum</option>
+            <option value="raspberry">Raspberry</option>
+            <option value="strawberry">Strawberry</option>
+
+        </select>
+
+        <button id="my-btn">Click button to call JS function!</button>
+
+        <!-- div inside the div for our number interface -->
+        <div style="background-color:#aaa;height:200px;">
+
+            <h3>Enter 2 numbers and click the button!</h3>
+            <input type="number" id="num1" value="0">
+            <input type="number" id="num2" value="0">
+            <button id="btn-nums">Click button to ADD the numbers</button>
+
+        </div>
+
+    </div>
+
+    <script src="js-01-variables.js"></script>
+    
+</body>
+</html>
