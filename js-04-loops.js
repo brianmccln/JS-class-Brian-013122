@@ -21,3 +21,26 @@ for(var i = 0; i < fruits.length; i++) {
     console.log(product);
 
 }
+
+// Classic Fizz Buzz Programming Job Interview Challenge
+// output to the console all integers from 1-100
+// if the number is evenly divisible by 3, output 'Fizz' instead
+// if the number is evenly divisible by 5, output 'Buzz' instead
+// if the number is evenly divisible by 3 AND 5, output 'Fizz Buzz'
+// ALGORITHM: How do we approach and solve the problem?
+for(var i = 1; i <= 100; i++) {
+
+    console.log(i);
+
+}
+
+var r1 = 20 % 3; // 2   (20/3 = 6 r 2)
+console.log(r1);
+var r2 = 20 % 7; // 6   (20/7 = 2 r 6)
+console.log(r2);
+var r3 = 20 % 8; // 4   (20/8 = 2 r 4)
+console.log(r3);
+var r4 = 20 % 19; // 1  (20/19 = 1 r 1)
+console.log(r4);
+var r5 = 20 % 4; // 0   (20/4 = 5 r 0)
+console.log(r5);
