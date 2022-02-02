@@ -24,13 +24,22 @@ for(var i = 0; i < fruits.length; i++) {
 
 // Classic Fizz Buzz Programming Job Interview Challenge
 // output to the console all integers from 1-100
-// if the number is evenly divisible by 3, output 'Fizz' instead
-// if the number is evenly divisible by 5, output 'Buzz' instead
-// if the number is evenly divisible by 3 AND 5, output 'Fizz Buzz'
+// if i is evenly divisible by 3, output 'Fizz' instead of i
+// if i is evenly divisible by 5, output 'Buzz' instead
+// if i is evenly divisible by 3 AND 5, output 'Fizz Buzz'
+// if i is NOT divisible by either 3 or 5, just output the i
 // ALGORITHM: How do we approach and solve the problem?
 for(var i = 1; i <= 100; i++) {
 
-    console.log(i);
+    if(i % 3 == 0 && i % 5 == 0) { // is i divisible by BOTH 3 AND 5?
+        console.log('Fizz BUzz');
+    } else if(i % 3 == 0) { // if not, is i divisible by just 3
+        console.log('Buzz');
+    } else if(i % 5 == 0) { // if not, is i divisible by just 5
+        console.log('Buzz');
+    } else {
+        console.log(i); // i is not divisible by either 3 or 5, so just print i
+    }
 
 }
 
