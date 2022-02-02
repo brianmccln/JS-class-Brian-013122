@@ -27,4 +27,4 @@ if(hour < 12) {
 // on page load output to the chalkboard
 // the day of the week and the current hour
 var chalkboard = document.getElementById('chalkboard');
-chalkboard.innerHTML = dayStr.toUpperCase() + ' is coffee day !<br>' + greeting.toUpperCase();
+chalkboard.innerHTML = "It's " + dayStr.toUpperCase() + '!<br>' + greeting.toUpperCase();

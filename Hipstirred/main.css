@@ -151,7 +151,7 @@ greeting "Good Morning/Afternoon/Evening" */
 #chalkboard {
 	position: absolute;
 	font-family: 'Gochi Hand', cursive;
-	background-image: url(images/coffee-bar-chalkboard.png);
+	background-image: url(images/coffee-bar-chalkboard-325x223.png);
 	background-size: cover;
 	height: 220px;
 	width: 330px;
@@ -161,10 +161,11 @@ greeting "Good Morning/Afternoon/Evening" */
 	border: 3px solid #eee;
 	border-radius: 8px;
 	transform: rotate(7deg);
-	color: #eee;
-	padding: 20px;
+	color:#cec575;
+	padding: 18px;
 	text-align: center;
-	font-size: 1.25em;
-	line-height: 1.1em;
+	font-size: 1.75em;
+	line-height: 0.9em;
+	letter-spacing: 3px;
 	z-index: 1;
 }
